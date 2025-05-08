@@ -82,7 +82,7 @@ Build the Tailwind CSS:
 If you are using Tailwind CSS in your project, you need to compile the CSS. Run:
 
 ```bash
-npm run build
+npm run dev
 ```
 
 This will generate the necessary CSS files and make them available for the frontend.
