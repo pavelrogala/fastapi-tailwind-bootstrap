@@ -33,7 +33,7 @@ git clone <your-repository-url>
 cd <your-project-folder>
 ```
 
-### Create and activate a virtual environment (recommended to isolate Python dependencies):
+Create and activate a virtual environment (recommended to isolate Python dependencies):
 
 On Windows:
 
@@ -49,7 +49,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Install Python dependencies:
+Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -58,7 +58,7 @@ This will install the necessary backend dependencies (FastAPI, Uvicorn, etc.).
 
 ## 2. Set up the Frontend (Tailwind CSS & Bootstrap)
 
-### Install Node.js dependencies:
+Install Node.js dependencies:
 In the project folder, run:
 ```bash
 npm install
@@ -70,7 +70,7 @@ This will install Tailwind CSS, Bootstrap, and any other necessary frontend depe
 
 Once the dependencies are installed, you can run the application.
 
-### Start the FastAPI backend:
+Start the FastAPI backend:
 
 ```bash
 uvicorn app:app --reload
@@ -78,7 +78,7 @@ uvicorn app:app --reload
 
 The backend should now be running on http://127.0.0.1:8000.
 
-### Build the Tailwind CSS:
+Build the Tailwind CSS:
 If you are using Tailwind CSS in your project, you need to compile the CSS. Run:
 
 ```bash
