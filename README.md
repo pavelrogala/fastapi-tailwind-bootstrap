@@ -73,7 +73,7 @@ Once the dependencies are installed, you can run the application.
 Start the FastAPI backend:
 
 ```bash
-uvicorn app:app --reload
+uvicorn app.main:app --reload
 ```
 
 The backend should now be running on http://127.0.0.1:8000.
