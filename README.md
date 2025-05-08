@@ -18,6 +18,7 @@ python --version
 pip --version
 node --version
 npm --version
+```bash 
 
 If any of these commands fail, you'll need to install the corresponding software before proceeding.
 
