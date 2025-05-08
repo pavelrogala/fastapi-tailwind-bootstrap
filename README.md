@@ -18,37 +18,45 @@ python --version
 pip --version
 node --version
 npm --version
-```bash 
+``` 
 
 If any of these commands fail, you'll need to install the corresponding software before proceeding.
 
 # Installation
+
 ## 1. Set up the Python environment
 
-    Clone the repository (if you haven’t already):
+Clone the repository (if you haven’t already):
+
 ```bash
 git clone <your-repository-url>
 cd <your-project-folder>
+```
 
 Create and activate a virtual environment (recommended to isolate Python dependencies):
 
     On Windows:
 
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 
-On macOS/Linux:
+    On macOS/Linux:
 
-    python3 -m venv venv
-    source venv/bin/activate
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 Install Python dependencies:
-
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
     This will install the necessary backend dependencies (FastAPI, Uvicorn, etc.).
 
-2. Set up the Frontend (Tailwind CSS & Bootstrap)
+## 2. Set up the Frontend (Tailwind CSS & Bootstrap)
 
     Install Node.js dependencies:
     In the project folder, run:
@@ -57,7 +65,7 @@ Install Python dependencies:
 
     This will install Tailwind CSS, Bootstrap, and any other necessary frontend dependencies.
 
-3. Run the Application
+## 3. Run the Application
 
 Once the dependencies are installed, you can run the application.
 
@@ -74,6 +82,6 @@ If you are using Tailwind CSS in your project, you need to compile the CSS. Run:
 
     This will generate the necessary CSS files and make them available for the frontend.
 
-4. Access the Application
+## 4. Access the Application
 
 Open your browser and go to http://127.0.0.1:8000 to view the application.
