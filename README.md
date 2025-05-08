@@ -1,6 +1,6 @@
-# FastAPI with Tailwind CSS and Bootstrap
+# FastAPI with Tailwind CSS
 
-This is a project that combines **FastAPI**, **Tailwind CSS**, and **Bootstrap** to create a web application with modern styling and a fast backend. Follow the instructions below to set up and run the project.
+This is a project that combines **FastAPI** and **Tailwind CSS** to bootstrap a simple web application with modern styling and a fast backend. Follow the instructions below to set up and run the project.
 
 ## Prerequisites
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 This will install the necessary backend dependencies (FastAPI, Uvicorn, etc.).
 
-## 2. Set up the Frontend (Tailwind CSS & Bootstrap)
+## 2. Set up the Frontend (Tailwind CSS)
 
 Install Node.js dependencies:
 In the project folder, run:
@@ -64,7 +64,7 @@ In the project folder, run:
 npm install
 ```
 
-This will install Tailwind CSS, Bootstrap, and any other necessary frontend dependencies.
+This will install Tailwind CSS.
 
 ## 3. Run the Application
 
